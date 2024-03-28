@@ -1,4 +1,4 @@
-# MarumaSignWebUI
+# MarumaSignWebUI は [MarumaSign](https://github.com/TORO-Server/MarumaSign) に統合されました。
 
 WebUI で MarumaSign の看板の設定をできるようにする
 
