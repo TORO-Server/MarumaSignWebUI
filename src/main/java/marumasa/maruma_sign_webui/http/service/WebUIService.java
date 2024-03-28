@@ -51,7 +51,7 @@ public class WebUIService {
         StringBuilder fileText = new StringBuilder();
 
         try (InputStream is = WebUIService.class.getResourceAsStream(path);
-             BufferedReader br = new BufferedReader(new InputStreamReader(Objects.requireNonNull(is)))) {
+             BufferedReader br = new BufferedReader(new InputStreamReader(Objects.requireNonNull(is), StandardCharsets.UTF_8))) {
             String line;
             while ((line = br.readLine()) != null) {
                 fileText.append(line); // ファイルの内容を1行ずつ読み込み
