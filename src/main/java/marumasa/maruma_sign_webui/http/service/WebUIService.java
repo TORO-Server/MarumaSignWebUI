@@ -16,7 +16,7 @@ public class WebUIService {
 
     // アクセスできるファイルのパス一覧
     private static final String[] allowPaths = {
-            "/index.html", "/style.css", "/script.js", "/utils.js", "/favicon.ico"
+            "/index.html", "/style.css", "/script.js", "/utils.js", "/preview.js", "/favicon.ico"
     };
 
     public static void Handle(HttpExchange exchange) throws IOException {

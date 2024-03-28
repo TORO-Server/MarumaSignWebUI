@@ -4,6 +4,7 @@ const urlinput = document.getElementById("address");
 
 // URLが変更されたときにリソースを置き換えする
 function detectChangeURL() {
+    console.log('URL Change Detected');
 
     // initエラーチェック
     if (imgelem == null | urlinput == null | urlinput.value == undefined | imgelem.src == undefined) {
