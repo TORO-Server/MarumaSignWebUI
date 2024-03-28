@@ -4,6 +4,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
 label {
     display: flex;
 }
@@ -13,10 +17,10 @@ a img {
 }
 
 .box {
-    width: 80%;
-    margin: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60vw;
+    padding: 50px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .box p {
@@ -158,4 +162,11 @@ input#upload {
 .upload {
     display: flex;
     justify-content: flex-end;
+}
+
+#previewimg {
+    width: 20vw;
+    padding: 50px;
+    padding-left: auto;
+    padding-right: auto;
 }
