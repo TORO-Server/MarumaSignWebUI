@@ -30,9 +30,9 @@ public class ServerEngine {
         public void handle(HttpExchange exchange) throws IOException {
             // リクエストを処理する
             if ("POST".equals(exchange.getRequestMethod())) {
-                APIService.Handle(exchange);
+                APIService.Handle(exchange);// post の場合は APIService
             } else {
-                WebUIService.Handle(exchange);
+                WebUIService.Handle(exchange);// それ以外 の場合は WebUIService
             }
         }
     }
