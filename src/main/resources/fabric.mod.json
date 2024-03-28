@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "maruma_sign_webui",
+  "version": "${version}",
+  "name": "MarumaSignWebUI",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/USER/MarumaSignWebUI"
+  },
+  "license": "MIT",
+  "icon": "assets/maruma_sign_webui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "marumasa.maruma_sign_webui.client.MarumaSignWebUIClient"
+    ],
+    "main": [
+      "marumasa.maruma_sign_webui.MarumaSignWebUI"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
